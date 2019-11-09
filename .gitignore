@@ -1,5 +1,8 @@
-##C++
-    #Executables
-        *.exe
-        *.out
-        *.app
+## macOS
+*.DS_Store
+
+## C++
+# Executables
+*.exe
+*.out
+*.app
