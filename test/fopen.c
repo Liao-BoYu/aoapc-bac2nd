@@ -3,7 +3,8 @@
 int main()
 {
     FILE *fin, *fout;
-    fin = fopen("data.in", "wb");
+    fin = fopen("input.txt", "rb");
+    fout = fopen("output.txt", "wb");
     int x, n = 0, min = INF, max = -INF ,s = 0;
     while(fscanf(fin, "%d", &x) == 1)
     {
