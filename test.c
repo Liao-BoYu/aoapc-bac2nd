@@ -6,10 +6,11 @@ int main()
     int i = 1;
     do
     {
-        n = 1/2*i-1;
+        n = 1.0/(2*i-1);
         if (i%2 == 0) S-=n;
         else S+=n;
-    }while(n<1e-6);
+        i++;
+    }while(n>1e-6);
     printf("%lf\n",S);
     return 0;
 }
