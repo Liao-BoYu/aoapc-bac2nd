@@ -1,0 +1,5 @@
+##C++
+    #Executables
+        *.exe
+        *.out
+        *.app
