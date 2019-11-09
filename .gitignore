@@ -1,5 +1,7 @@
 ## macOS
 *.DS_Store
+input.txt
+output.txt
 
 ## C++
 # Executables

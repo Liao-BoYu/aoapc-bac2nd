@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    freopen("data.in","r",stdin);
-    freopen("data.out","w",stdout);
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
     int x, n = 1, min, max, s = 0;
     scanf("%d",&x);
     min = x;
