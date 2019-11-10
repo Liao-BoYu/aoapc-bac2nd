@@ -19,8 +19,8 @@ int main()
                         int g = ghi/100;
                         int h = ghi/10%10;
                         int i = ghi%10%10;
-                        if(g != h && g != i && h != i)
-                            if(ghi == 3*abc && def == 2*abc)
+                        if(g != h && g != i && h != i && b != d)
+                            if(ghi == 3*abc && def == 2*abc && a+b+c+d+e+f+g+h+i == 45)
                                 printf("Case %d: %d %d %d\n", ++count, abc, def, ghi);
                     }
             }
