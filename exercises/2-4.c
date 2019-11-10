@@ -8,13 +8,11 @@ int main()
     int n, m, kase = 0;
     while(scanf("%d%d", &n, &m) == 2 && n && m)
     {
-        long double y = 0.0;
-        for(int i = 0; i <= m-n; i++)
-        {
-            long long x = (n+i)*(n+i);
-            y += 1.0/x;
-        }
-        printf("Case %d: %.5Lf\n", ++kase, y);
+        long long x = n, y = m;
+        double z = 0.0;
+        for(; x <= y; x++)
+            z += 1.0/(double)(x*x);
+        printf("Case %d: %.5f\n", ++kase, z);
     }
     return 0;
 }
